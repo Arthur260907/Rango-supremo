@@ -25,6 +25,10 @@ header{
     justify-content: center;
 
 }
+header a {
+    text-decoration: none;
+    color :white;
+}
 #Logo img{grid-column: 1;
   height: 130px;
   width: 200px;

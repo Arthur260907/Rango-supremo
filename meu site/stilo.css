@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    gap: 20px;
+   
     
     
 }
@@ -11,7 +11,7 @@ body {
     width: 100%;
     height: 100%;
     background-color:#2A2927;
-    gap: 20px;
+    
 }
 header{
     background-color: black;
@@ -24,6 +24,11 @@ header{
     align-items: center;
     justify-content: center;
 
+}
+
+header a {
+    text-decoration: none;
+    color :white;
 }
 #Logo img{grid-column: 1;
   height: 130px;
@@ -143,27 +148,155 @@ bottom: 20px;
 #sobremesa_ss {
     background-color: #1A1916;
     width: 100%;
-    height: 1000px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
-    gap:20px;
+    height: 1400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+#grupo_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#grupo_1 img{
+
+width: 300px;
+height: 200px;
+
+}
+#grupo_1 svg{
+
+    width: 50px;
+    height: 50px;
+    
+    }
+#grupo_2{display: flex;
+flex-direction: row;
+justify-content: space-between; 
 }
 
-#petit_geteau
+#grupo_2 img
 {
-grid-column: 1;
-grid-row: inherit;
+    width: 300px;
+    height: 200px;
+    
 }
+#grupo_2 svg{
 
+        width: 50px;
+        height: 50px;
+        
+        }
+#petit_geteau
+{display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+}
+.nota
+{display: flex;
+    flex-direction: row;
+}
+.preco{
+    color: green;
+    font-size: 50px;
+}
+#petit_geteau p
+{
+    color: yellow;
+    font-size: 50px;
+    margin-right: 50px;
+
+}
 #Torta_de_Limao
 {
-grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
 }
 
+#Torta_de_Limao p
+{
+    color: yellow;
+    font-size: 50px;
+    margin-right: 50px;
+}
 #Chesscake_de_Fruta
 {
-    grid-column: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+#Chesscake_de_Fruta p{
+    color: yellow;
+    font-size: 50px;
+    margin-right: 50px;
+}
+#bolo_com_sorvete
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+#bolo_com_sorvete p 
+{
+    color: yellow;
+    font-size: 50px;
+    margin-right: 50px;
+}
+
+#maracuja
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+#maracuja p 
+{
+    color: yellow;
+    font-size: 50px;
+    margin-right: 50px;
+}
+#Malabi
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+#Malabi p 
+{
+    color: yellow;
+    font-size: 50px;
+    margin-right: 50px;
 }
 footer{
     width: 100%;
@@ -172,7 +305,6 @@ footer{
     color:white;
     gap:9px;
     display: flex;
-    position: absolute;
     bottom: 0;
 }
 footer svg{
